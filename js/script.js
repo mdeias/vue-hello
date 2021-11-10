@@ -1,7 +1,16 @@
 
 const app = new Vue({
     el: "#app",
+
     data: {
-        messaggio: "Ciao mondo!"
+        messaggio: "",
+        miaClasse: ''  
+    },
+
+    methods:{
+        coloraClasse(classe){
+            this.miaClasse = classe;
+        }
     }
+
 })

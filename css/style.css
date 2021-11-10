@@ -1,0 +1,123 @@
+.contenitore{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:wheat;
+}
+
+#app{
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button{
+    padding: 3px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    color:black;
+    transition: 3s;
+}
+
+button:hover{
+    color: #fff;
+    box-shadow: 3px 4px 3px black;
+    transform: scale(1.2);
+}
+
+button:active{
+    
+    transform: scale(0.7);
+}
+
+h1{
+    max-width: 900px;
+    margin: 30px 0px;
+    padding: 10px 0px;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow: scroll;
+}
+
+.blu{
+    color: blue;
+}
+
+.rosso{
+    color: red;
+}
+
+.giallo{
+    color: yellow;
+}
+
+.nero{
+    color: black;
+}
+
+.rosa{
+    color:pink;
+}
+
+.viola{
+    color:purple;
+}
+
+.arancione{
+    color:orange;
+}
+
+.marrone{
+    color:brown;
+}
+
+.oro{
+    color:gold;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-gold{
+    background-color: gold;
+}
+
+.bg-orange{
+    background-color:orange;
+}
+
+.bg-red{
+    background-color:red;
+}
+
+.bg-blue{
+    background-color:blue;
+}
+
+.bg-purple{
+    background-color:purple;
+}
+
+.bg-yellow{
+    background-color:yellow;
+}
+
+
+
+
